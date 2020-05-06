@@ -1,0 +1,38 @@
+body {
+  background: red;
+}
+
+#font-name {
+  position: relative;
+  left: 10%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 600 ;
+  letter-spacing: 3px;
+  color: #4aba9d;
+  padding: 20px;
+}
+
+.nav-item {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  #font-name {
+    position: relative;
+    left: 15%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 600 ;
+    letter-spacing: 3px;
+    color: #4aba9d;
+    padding: 20px;
+  }
+  .nav-item {
+    position: relative;
+    right: 80%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+  }
+}
