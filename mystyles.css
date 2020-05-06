@@ -1,7 +1,4 @@
-body {
-  background: red;
-}
-
+/* START OF NAVBAR CSS **/
 #font-name {
   position: relative;
   left: 10%;
@@ -12,10 +9,25 @@ body {
   padding: 20px;
 }
 
+#logo {
+  position: relative;
+  left: 10%;
+}
+
 .nav-item {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 600;
   padding: 20px;
+}
+
+.nav-hover-effect:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#navbar-style {
+    border-bottom-style: groove;
+    border-bottom-color: #f7f6f2;
 }
 
 @media screen and (min-width: 1000px) {
@@ -28,11 +40,17 @@ body {
     color: #4aba9d;
     padding: 20px;
   }
+  #logo {
+    position: relative;
+    left: 15%;
+  }
   .nav-item {
     position: relative;
-    right: 80%;
+    right: 30%;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 600;
     padding: 20px;
   }
 }
+
+/*-- END OF NAVBAR CSS */
