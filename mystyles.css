@@ -54,7 +54,14 @@ body {
     font-weight: 600;
     padding: 20px;
   }
-}
+
+  .bg-light {
+    background: transparent !important;
+  }
+
+  .bg-light.scrolled {
+    background: #f2f1ed !important;
+  }
 /*-- END OF NAVBAR CSS */
 
 #main {
@@ -202,7 +209,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-  height: 1000px;
+  height: 2000px;
 }
 
 .exp {
@@ -237,18 +244,31 @@ body {
   color: lightSeaGreen;
 }
 
-.school {
+.expr-2 {
   padding: 3vw;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.school p {
+.expr-2 p {
   text-align: center;
   margin: 0;
   color: white;
 }
 
-.schools {
+.expr {
   padding: 1vw;
+}
+
+.contact-title {
+  margin-top: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title h3 {
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
 }
