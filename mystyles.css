@@ -1,7 +1,15 @@
+body {
+  background-image: url(assets/bg8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
 /* START OF NAVBAR CSS **/
 #font-name {
   position: relative;
-  left: 10%;
+  left: 3%;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 600 ;
   letter-spacing: 3px;
@@ -11,7 +19,7 @@
 
 #logo {
   position: relative;
-  left: 10%;
+  left: 3%;
 }
 
 .nav-item {
@@ -25,15 +33,10 @@
   border-bottom: 1px solid black;
 }
 
-#navbar-style {
-    border-bottom-style: groove;
-    border-bottom-color: #f7f6f2;
-}
-
 @media screen and (min-width: 1000px) {
   #font-name {
     position: relative;
-    left: 15%;
+    left: 8%;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 600 ;
     letter-spacing: 3px;
@@ -42,14 +45,45 @@
   }
   #logo {
     position: relative;
-    left: 15%;
+    left: 8%;
   }
   .nav-item {
     position: relative;
-    right: 30%;
+    right: 20%;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 600;
     padding: 20px;
   }
 }
 /*-- END OF NAVBAR CSS */
+
+#main {
+  background: none;
+  padding-top: 5%;
+}
+
+ .fonts {
+   font-family: 'Julius Sans One', sans-serif;
+ }
+
+.word {
+  color: #4aba9d;
+}
+
+#intro {
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1vw;
+  padding: 20px;
+}
+
+.line:after,
+.line:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+    color: #464646;
+}
