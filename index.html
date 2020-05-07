@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyles.css">
+    <script src="https://kit.fontawesome.com/e759b02136.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -16,7 +17,7 @@
 
 
 
-  <body>
+  <body id="homepage">
   <!-- Start of NAVBAR -->
   <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light" id="navbar-style" style="margin:0;">
         <a href="#" id="logo"><img src="assets/logo.svg" class="animated fadeInLeft" alt="logo" height="80" width="60"></a>
@@ -24,10 +25,10 @@
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="nav-menu">
           <ul class="navbar-nav ml-auto navbar-brand animated fadeIn delay-1s">
-              <li class="nav-item"><a class="nav-link" href="#"><span class="nav-hover-effect">Home</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><span class="nav-hover-effect">Profile</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#homepage"><span class="nav-hover-effect">Home</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#hrefprof"><span class="nav-hover-effect">Profile</span></a></li>
               <li class="nav-item"><a class="nav-link" href="#"><span class="nav-hover-effect">Blog</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><span class="nav-hover-effect">Contact</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="#end"><span class="nav-hover-effect">Contact</span></a></li>
           </ul>
         </div>
   </nav>
@@ -37,7 +38,7 @@
       <div class="container" id="intro">
           <h1 class="display-2 fonts" style="font-size: 5vw;">Hey <span class="word">there</span>, I am Azis!</h1>
           <p class="lead" style="font-size: 1.6vw; padding-bottom: 50px; letter-spacing: 0.5vw;">WELCOME TO MY <span class="word" style="font-weight: 400;">PERSONAL</span> WEBSITE</p>
-          <h2 class="quote"><span class="line"> IGNITE YOUR PASSION</span></h2>
+          <h2 class="quote" id="hrefprof"><span class="line"> IGNITE YOUR PASSION</span></h2>
       </div>
   </div>
 
@@ -85,7 +86,7 @@
             </div>
             <div class="container" data-aos="fade-up" id="expcontainer">
                 <div class="row">
-                  <div class="col-4 education"><h3 class="fonts">Education</h3></div>
+                  <div class="col-12 education"><h3 class="fonts">Educational Backround</h3></div>
                 </div>
                 <div class="row expr">
                   <div class="col-4 expr-2">
@@ -127,11 +128,8 @@
                     <p class="fonts" style="color: white;">Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.</p>
                   </div>
                 </div>
-                <div class="row" style="border-bottom: 1px solid white;">
-                  <div class="col-12 education"><h3 class="fonts">CAREER - TBA</h3></div>
-                </div>
                 <div class="row">
-                  <div class="col-12 education"><h3 class="fonts">HONORS & AWARDS</h3></div>
+                  <div class="col-12 education" style="border-top: 2px solid white;"><h3 class="fonts">HONORS & AWARDS</h3></div>
                 </div>
                 <div class="row expr">
                   <div class="col-4 expr-2">
@@ -177,6 +175,27 @@
       </div>
  </div>
 
+ <footer class="container-fluid" style="background: lightgray;" id="end">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 contact"><h3 class="fonts">CONTACT</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-12 contact-details"><p class="fonts" style=" padding-bottom: 0.5vw; padding-top: 1vw;">To get in touch with me regarding media inquiries: Email aamagantal@gmail.com</p></div>
+        </div>
+        <div class="row">
+            <div class="col-12 contact-details" style="border-bottom: 2px solid lightSeaGreen;">
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+                <i class="fab fa-github fa-2x"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 contact-details"><p class="fonts" style="padding: 0.5vw; font-size: 0.8rem;">&copy; Azis Agantal.All rights reserved.</p></div>
+        </div>
+    </div>
+ </footer>
 
 
 
