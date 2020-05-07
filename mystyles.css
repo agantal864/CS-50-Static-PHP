@@ -55,6 +55,14 @@ body {
     padding: 20px;
   }
 }
+
+.bg-light {
+  background: transparent !important;
+}
+
+.bg-light.scrolled {
+  background: #f2f1ed !important;
+}
 /*-- END OF NAVBAR CSS */
 
 #main {
@@ -202,7 +210,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
-  height: 1000px;
 }
 
 .exp {
@@ -237,18 +244,18 @@ body {
   color: lightSeaGreen;
 }
 
-.school {
+.expr-2 {
   padding: 3vw;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.school p {
+.expr-2 p {
   text-align: center;
   margin: 0;
   color: white;
 }
 
-.schools {
+.expr {
   padding: 1vw;
 }
