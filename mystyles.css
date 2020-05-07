@@ -94,8 +94,9 @@ body {
 }
 
 .abt {
+  font-weight: 700;
   padding: 2vw;
-  background-color: lightgray;
+  background-color: ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,8 +107,8 @@ body {
 }
 
 .abt-2 {
+  font-weight: 400;
   padding: 2vw;
-  background-color: lightgray;
   display: flex;
   align-items: center
 }
@@ -118,4 +119,79 @@ body {
 
 .fonts2 {
   font-family: 'Open Sans', sans-serif;
+}
+
+.prfl {
+  padding: 2vw;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prfl p {
+  font-weight: 700;
+  font-size: 4em;
+  color: #4aba9d;
+  margin: 0;
+}
+
+.descrip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descrip p {
+  font-weight: 700;
+  margin: 0;
+}
+
+.details-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-title h3 {
+  font-weight: 700;
+  margin: 0;
+  color: #4aba9d;
+}
+
+.my-img {
+  padding:2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-img img {
+  border-radius: 50%;
+}
+
+.my-details {
+  padding: 2vw;
+}
+
+.details-bold p {
+  margin: 0;
+  padding: 0.2vw;
+}
+
+.my-details p {
+  margin: 0;
+  padding: 0.2vw;
+}
+
+.details-bold {
+  font-weight: bold;
+}
+
+.my-details-2 {
+  padding: 2vw;
+}
+
+.my-details-2 p {
+  margin: 0;
+  padding: 0.2vw;
 }
