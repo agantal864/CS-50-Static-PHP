@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyles.css">
     <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="utf-8">
 
     <title>My Personal Webpage</title>
@@ -40,50 +41,105 @@
       </div>
   </div>
 
-  <div class="container-fluid" id="myprofile">
+  <div class="container-fluid" data-aos="fade-up" id="myprofile">
       <div class="container">
           <div class="row">
-              <div class="col-12 prfl"><p>PROFILE</p></div>
+              <div class="col-12 prfl"><p class="fonts">PROFILE</p></div>
           </div>
           <div class="row">
-              <div class="col-12 descrip"><p>Incoming Computer Scientist</p></div>
+              <div class="col-12 descrip"><p class="fonts">Incoming Computer Scientist</p></div>
           </div>
           <div class="row">
-              <div class="col-3 abt fonts-2"><p>ABOUT ME</p></div>
-              <div class="col-9 abt-2 fonts-2"><p>This site is somehow both simple yet visually striking and will make you say “wow” as soon as you land on it. Essentially a fancy online resume, this site does an especially good job of incorporating graphics and images in a super classy way. We especially like the “why me” section that summarizes Wiktor’s greatest attributes.</p></div>
+              <div class="col-3 abt"><p class="fonts">ABOUT ME</p></div>
+              <div class="col-9 abt-2"><p class="fonts">This site is somehow both simple yet visually striking and will make you say “wow” as soon as you land on it. Essentially a fancy online resume, this site does an especially good job of incorporating graphics and images in a super classy way. We especially like the “why me” section that summarizes Wiktor’s greatest attributes.</p></div>
           </div>
           <div class="row">
             <div class="col-12 details-title">
-                <h3>DETAILS</h3>
+                <h3 class="fonts">DETAILS</h3>
             </div>
           </div>
           <div class="row">
               <div class="col-3 my-img"><img src="assets/prof-pic.jpg" height="120px" width="120px" alt="My-prof-pic"></div>
-              <div class="col-3 my-details fonts-2">
-                  <p class="details-bold">Name:</p>
-                  <p>Abdul Azis M. Agantal</p>
-                  <p class="details-bold">Age:</p>
-                  <p>19 years</p>
-                  <p class="details-bold">Religion:</p>
-                  <p>Islam</p>
+              <div class="col-3 my-details">
+                  <p class="details-bold fonts">Name:</p>
+                  <p class="fonts">Abdul Azis M. Agantal</p>
+                  <p class="details-bold fonts">Age:</p>
+                  <p class="fonts">19 years</p>
+                  <p class="details-bold fonts">Religion:</p>
+                  <p class="fonts">Islam</p>
               </div>
-              <div class="col-3 my-details-2 fonts-2">
-                  <p class="details-bold">Address:</p>
-                  <p>Lot 7, Block 30, Victor's Estate, Tigatto, Buhangin, Davao City 8000</p>
-                  <p class="details-bold">Civil Status:</p>
-                  <p>Single</p>
+              <div class="col-3 my-details-2">
+                  <p class="details-bold fonts">Address:</p>
+                  <p class="fonts">Lot 7, Block 30, Victor's Estate, Tigatto, Buhangin, Davao City 8000</p>
+                  <p class="details-bold fonts">Civil Status:</p>
+                  <p class="fonts">Single</p>
               </div>
           </div>
       </div>
   </div>
 
+  <div class="container-fluid" id="myexperiences">
+      <div class="container" id="mycontainer">
+            <div class="row">
+                <div class="col-12 exp"><p class="fonts">EXPERIENCES</p></div>
+            </div>
+            <div class="container" data-aos="fade-up" id="expcontainer">
+                <div class="row">
+                  <div class="col-4 education"><h3 class="fonts">Education</h3></div>
+                </div>
+                <div class="row schools">
+                  <div class="col-4 school">
+                    <p class="fonts" style="font-weight: bold;">University of the Philippines</p>
+                    <p class="fonts" style="padding: 0.50vw;">Aug 2019 - Cont.</p>
+                  </div>
+                  <div class="col 8">
+                    <p class="fonts" style="color: white; font-weight: bold;">Course - Gamification (course)</p>
+                    <p class="fonts" style="color: white;">Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.</p>
+                  </div>
+                </div>
+                <div class="row schools">
+                  <div class="col-4 school">
+                    <p class="fonts" style="font-weight: bold;">Ateneo de Davao University</p>
+                    <p class="fonts" style="padding: 0.50vw;">June 2017 - March 2019</p>
+                  </div>
+                  <div class="col 8">
+                    <p class="fonts" style="color: white; font-weight: bold;">Course - Gamification (course)</p>
+                    <p class="fonts" style="color: white;">Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.</p>
+                  </div>
+                </div>
+                <div class="row schools">
+                  <div class="col-4 school">
+                    <p class="fonts" style="font-weight: bold;">Wisdom Islamic School</p>
+                    <p class="fonts" style="padding: 0.50vw;">June 2013 - March 2017</p>
+                  </div>
+                  <div class="col 8">
+                    <p class="fonts" style="color: white; font-weight: bold;">Course - Gamification (course)</p>
+                    <p class="fonts" style="color: white;">Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.</p>
+                  </div>
+                </div>
+                <div class="row schools">
+                  <div class="col-4 school">
+                    <p class="fonts" style="font-weight: bold;">Iligan City SPED Center</p>
+                    <p class="fonts" style="padding: 0.50vw;">June 2007 - March 2013</p>
+                  </div>
+                  <div class="col 8">
+                    <p class="fonts" style="color: white; font-weight: bold;">Course - Gamification (course)</p>
+                    <p class="fonts" style="color: white;">Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.</p>
+                  </div>
+                </div>
+            </div>
+      </div>
+ </div>
 
 
 
 
 
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

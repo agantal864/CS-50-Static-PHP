@@ -13,7 +13,7 @@ body {
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 600 ;
   letter-spacing: 3px;
-  color: #4aba9d;
+  color: lightSeaGreen;
   padding: 20px;
 }
 
@@ -90,7 +90,10 @@ body {
 
 #myprofile {
   background-color: white;
-  height: 1000px;
+}
+
+.fonts {
+  font-family: 'Roboto', sans-serif;
 }
 
 .abt {
@@ -117,10 +120,6 @@ body {
    margin: 0;
 }
 
-.fonts2 {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .prfl {
   padding: 2vw;
   padding-bottom: 0;
@@ -132,7 +131,7 @@ body {
 .prfl p {
   font-weight: 700;
   font-size: 4em;
-  color: #4aba9d;
+  color: lightSeaGreen;
   margin: 0;
 }
 
@@ -156,7 +155,7 @@ body {
 .details-title h3 {
   font-weight: 700;
   margin: 0;
-  color: #4aba9d;
+  color: lightSeaGreen;
 }
 
 .my-img {
@@ -194,4 +193,62 @@ body {
 .my-details-2 p {
   margin: 0;
   padding: 0.2vw;
+}
+
+#myexperiences {
+  background-image: url(assets/pink.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 1000px;
+}
+
+.exp {
+  padding: 2vw;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp p {
+  color: lightSeaGreen;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0;
+}
+
+#expcontainer {
+  border: 2px solid white;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.education {
+  padding: 3vw;
+  padding-bottom: 2vw;
+}
+
+.education h3 {
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
+}
+
+.school {
+  padding: 3vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.school p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.schools {
+  padding: 1vw;
 }
