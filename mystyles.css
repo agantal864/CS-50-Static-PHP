@@ -40,7 +40,7 @@ body {
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 600 ;
     letter-spacing: 3px;
-    color: #4aba9d;
+    color: lightSeaGreen;
     padding: 20px;
   }
   #logo {
@@ -60,6 +60,7 @@ body {
 #main {
   background: none;
   padding-top: 5%;
+  margin-bottom: 20vw;
 }
 
  .fonts {
@@ -67,7 +68,7 @@ body {
  }
 
 .word {
-  color: #4aba9d;
+  color: lightSeaGreen;
 }
 
 #intro {
@@ -85,5 +86,36 @@ body {
 .line:before{
     content:"\00a0\00a0\00a0\00a0\00a0";
     text-decoration: line-through;
-    color: #464646;
+}
+
+#myprofile {
+  background-color: white;
+  height: 1000px;
+}
+
+.abt {
+  padding: 2vw;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abt p {
+   margin: 0;
+}
+
+.abt-2 {
+  padding: 2vw;
+  background-color: lightgray;
+  display: flex;
+  align-items: center
+}
+
+.abt-2 p {
+   margin: 0;
+}
+
+.fonts2 {
+  font-family: 'Open Sans', sans-serif;
 }
